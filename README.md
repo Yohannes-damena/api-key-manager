@@ -74,7 +74,7 @@ npm install
 3. Create a `.env` file in the backend directory:
 ```env
 MONGODB_URI=mongodb://localhost:27017/api-key-manager
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_SECRET=your-jwt-key
 PORT=5000
 NODE_ENV=development
 ```
